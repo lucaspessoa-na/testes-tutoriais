@@ -27,3 +27,17 @@ carlos.speak("crise na california")
 palito.speak("hatanabá")
 
 print (carlos)
+
+#%%
+'''
+Inheritance
+'''
+class Parent:
+    def __init__(self, speak):
+        self.speak = speak
+class Child (Parent):
+    def __init__(self):
+        super().__init__()
+        self.speak.append("German")
+
+# %%
