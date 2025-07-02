@@ -28,6 +28,16 @@ palito.speak("hatanabá")
 
 print (carlos)
 
+'''
+Dog breeds (child classes)
+'''
+class Chiwawa(Dog):
+    def __init__(self):
+        super().__init__()
+    def speak (self, sound = "auau"):
+        return f"{self.name} says {sound}"
+
+
 #%%
 '''
 Inheritance
